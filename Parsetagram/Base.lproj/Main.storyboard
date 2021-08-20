@@ -129,6 +129,11 @@
                                                 <constraint firstItem="Bsq-14-g7U" firstAttribute="top" secondItem="Ulo-dW-VlS" secondAttribute="bottom" constant="8" id="pmz-1O-Vgr"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="captionLabel" destination="Bsq-14-g7U" id="v4m-n4-ldO"/>
+                                            <outlet property="photoView" destination="Ulo-dW-VlS" id="mvb-76-LQB"/>
+                                            <outlet property="usernameLabel" destination="xSk-XL-QOW" id="716-Ld-oXn"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
